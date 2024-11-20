@@ -1,0 +1,18 @@
+CREATE TRIGGER after_ecole_update
+AFTER INSERT ON updety
+FOR EACH ROW
+BEGIN
+    INSERT INTO updety (nometablissement, nomcomp, email, numbere)
+    VALUES (OLD.nometablissement, OLD.nomcomp, OLD.email, OLD.numbere);
+END;
+
+
+
+CREATE TABLE updety (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nometablissement VARCHAR(255),
+    nomcomp VARCHAR(255),
+    email VARCHAR(255),
+    numbere VARCHAR(20),
+    date_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

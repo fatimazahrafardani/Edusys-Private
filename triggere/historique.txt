@@ -1,0 +1,16 @@
+CREATE TRIGGER historique
+BEFORE DELETE ON ecole
+FOR EACH ROW
+BEGIN
+    INSERT INTO historique (nometablissement, cdetab)
+    VALUES (OLD.nometablissement, OLD.cdetab);
+END;
+
+
+
+CREATE TABLE historique (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nometablissement VARCHAR(255),
+    cdetab VARCHAR(255),
+    date_suppression TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

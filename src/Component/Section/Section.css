@@ -1,0 +1,49 @@
+
+ 
+
+ .card{
+    width: 300px;
+    height: 300px;
+background-color: #efebeb;
+ }
+.card-title{
+   color:#0b35a1;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+ .card img{
+    width: 40%;
+    margin-right: 30%;
+    margin-top: 10%;
+ }
+
+ section{
+margin-top: 10%;
+ }
+ .boxx h3 {
+     font-size: 50px;
+     color: #1a5f54;
+    
+
+ }
+ @keyframes card-body {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .card-body {
+    animation: card 1s infinite;
+  }
+ .ARD{
+    background-color:#003566;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: #033131;
+  border-radius: 10px;
+
+  margin-right: 20%;
+  
+
+ }

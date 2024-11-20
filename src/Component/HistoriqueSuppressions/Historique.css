@@ -1,0 +1,28 @@
+.table-container {
+    font-family: Arial, sans-serif;
+  
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .modifier{
+    padding-top: 13%;
+  }
+  
+  th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    color: rgb(19, 6, 72);
+  }
+  
+  th {
+    background-color: #dba9a9;
+    color: aliceblue;
+  }
+  .historique{
+    padding-top: 10%;
+
+  }

@@ -1,0 +1,29 @@
+.row{
+    margin-top: 7%;
+}
+strong{
+    font-family: 'Courier New', Courier, monospace;
+}
+.para{
+    color: black;
+    text-align: center;
+    font-size: large;
+ }
+    
+h6{
+    margin-right: 20%;
+    font-size: larger;
+  top: 10%;
+    color:white;
+
+      }
+
+     
+      .line {
+        border-top: 4px solid  #003566; /* Ligne horizontale */
+        width: 150px;
+        margin-right: 44%;
+      }
+            .mots{
+                color: #003566;
+            }

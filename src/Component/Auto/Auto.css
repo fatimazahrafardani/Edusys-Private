@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl; 
+   
+   
+}
+body {
+    color: white !important;
+}
+.text{color: rgb(9, 42, 27);
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+
+.container {
+    background-image: url("./fkfl-1536x1536.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+
+.w-50 {
+    width: 30% !important;
+    position: absolute !important;
+    top: 120px;
+    border: 2px solid rgb(19, 7, 64) !important;
+    border-radius: 10px;
+    left: 35%;
+}
+
+.form-label {
+    font-weight: 700;
+     color: rgba(6, 36, 26, 0.852);
+}
+
+.btn-success {
+    background-color: rgb(3, 14, 45) !important;
+    border: none !important;
+    width: 120px;
+    color: rgb(245, 245, 245);
+    margin-right: 30%;
+}
+.btn-success:hover{
+color: rgb(18, 88, 132);
+}
+.form-control:focus {
+    border-color: rgb(7, 51, 44);
+
+    
+  }
+  .form-control{
+ height: 50px;
+  }
